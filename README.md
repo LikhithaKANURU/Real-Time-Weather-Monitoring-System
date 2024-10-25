@@ -45,3 +45,61 @@ The following test cases will ensure the reliability of the system:
    ```bash
    git clone https://github.com/your_username/weather-monitoring-system.git
    cd weather-monitoring-system
+Key Features
+Data Collection: Retrieves data at configurable intervals (e.g., every 5 minutes) for major cities like Delhi, Mumbai, Chennai, Bangalore, Kolkata, and Hyderabad.
+Temperature Conversion: Converts temperature data from Kelvin to Celsius or Fahrenheit based on user preference.
+Daily Weather Summaries: Aggregates daily data to calculate average, maximum, and minimum temperatures and the dominant weather condition.
+Alert System: Notifies users when user-defined thresholds are breached. Alerts can be triggered for specific temperatures or weather conditions and are displayed on the console or sent via email.
+Visualizations: Generates charts to show daily summaries, trends, and alert triggers for better data interpretation.
+Getting Started
+Libraries Required
+To run this project, you need to install the following Python libraries:
+
+requests: For making API calls to OpenWeatherMap
+matplotlib: For creating visualizations and graphs
+smtplib: For sending email alerts (built-in Python library, but requires SMTP configuration)
+datetime: For handling date and time operations (standard Python library)
+time: For scheduling regular data retrieval (standard Python library)
+Install the required libraries with:
+
+bash
+Copy code
+pip install requests matplotlib
+How to Solve the Program
+Clone the Repository: First, clone the repository to your local machine.
+bash
+Copy code
+git clone https://github.com/your_username/weather-report.git
+cd weather-report
+Set Up OpenWeatherMap API Key: Sign up on OpenWeatherMap to get a free API key. Once you have the API key, create a .env file in your project folder and add:
+env
+Copy code
+API_KEY=your_openweathermap_api_key
+Configure Email Alerts (Optional): If you wish to receive email alerts, set up an app password for your email account (required by Gmail). Add your email credentials to the .env file:
+env
+Copy code
+EMAIL_ADDRESS=your_email@gmail.com
+EMAIL_PASSWORD=your_email_app_password
+Run the Program: Execute the main Python script to start collecting and processing weather data.
+bash
+Copy code
+python weather_monitoring.py
+How the Program Works
+The program fetches weather data at set intervals for each city.
+It converts temperatures to the chosen unit (Celsius or Fahrenheit).
+Data is processed to calculate daily summaries, including average, max, and min temperatures.
+If set thresholds are breached, alerts are sent via console or email.
+Visualizations are generated for daily and historical data to facilitate interpretation.
+Testing
+This project includes several test cases to ensure accurate functionality and reliability:
+
+API Connectivity: Verifies connection to OpenWeatherMap API.
+Data Retrieval and Parsing: Ensures data is correctly parsed and structured.
+Temperature Conversion: Confirms conversion from Kelvin to Celsius/Fahrenheit.
+Daily Summaries: Checks accuracy of calculated daily rollups.
+Alert Triggering: Verifies alerts are triggered at correct thresholds.
+Bonus Features
+Additional Weather Parameters: Includes options for extra data like humidity and wind speed.
+Weather Forecast Summaries: Provides insights based on forecasted conditions for better planning.
+Contributing
+Contributions are welcome! Please see the Contributing Guidelines for instructions on reporting issues, submitting pull requests, and joining discussions.
