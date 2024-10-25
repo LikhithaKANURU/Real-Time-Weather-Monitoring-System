@@ -41,9 +41,26 @@ The following test cases will ensure the reliability of the system:
 - Extend the system to support additional weather parameters (e.g., humidity, wind speed) and incorporate them into rollups/aggregates.
 - Retrieve weather forecasts and generate summaries based on predicted conditions.
 
-## Installation
+## Key Features
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your_username/weather-monitoring-system.git
-   cd weather-monitoring-system
+1. **Data Collection**: Retrieves data at configurable intervals (e.g., every 5 minutes) for major cities like Delhi, Mumbai, Chennai, Bangalore, Kolkata, and Hyderabad.
+2. **Temperature Conversion**: Converts temperature data from Kelvin to Celsius or Fahrenheit based on user preference.
+3. **Daily Weather Summaries**: Aggregates daily data to calculate average, maximum, and minimum temperatures and the dominant weather condition.
+4. **Alert System**: Notifies users when user-defined thresholds are breached. Alerts can be triggered for specific temperatures or weather conditions and are displayed on the console or sent via email.
+5. **Visualizations**: Generates charts to show daily summaries, trends, and alert triggers for better data interpretation.
+
+## Getting Started
+
+### Libraries Required
+To run this project, you need to install the following Python libraries:
+
+- `requests`: For making API calls to OpenWeatherMap
+- `matplotlib`: For creating visualizations and graphs
+- `smtplib`: For sending email alerts (built-in Python library, but requires SMTP configuration)
+- `datetime`: For handling date and time operations (standard Python library)
+- `time`: For scheduling regular data retrieval (standard Python library)
+
+Install the required libraries with:
+```bash
+pip install requests matplotlib
+pip install python-dotenv
