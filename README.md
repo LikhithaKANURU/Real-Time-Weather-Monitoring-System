@@ -46,11 +46,12 @@ The following test cases will ensure the reliability of the system:
    git clone https://github.com/your_username/weather-monitoring-system.git
    cd weather-monitoring-system
 ## Key Features
--1.**Data Collection**: Retrieves data at configurable intervals (e.g., every 5 minutes) for major cities like Delhi, Mumbai, Chennai, Bangalore, Kolkata, and Hyderabad.
--2.**Temperature Conversion**: Converts temperature data from Kelvin to Celsius or Fahrenheit based on user preference.
--3.**Daily Weather Summaries**: Aggregates daily data to calculate average, maximum, and minimum temperatures and the dominant weather condition.
--4.**Alert System**: Notifies users when user-defined thresholds are breached. Alerts can be triggered for specific temperatures or weather conditions and are displayed on the console or sent via email.
--5.**Visualizations**: Generates charts to show daily summaries, trends, and alert triggers for better data interpretation.
+
+1.**Data Collection**: Retrieves data at configurable intervals (e.g., every 5 minutes) for major cities like Delhi, Mumbai, Chennai, Bangalore, Kolkata, and Hyderabad.
+2.**Temperature Conversion**: Converts temperature data from Kelvin to Celsius or Fahrenheit based on user preference.
+3.**Daily Weather Summaries**: Aggregates daily data to calculate average, maximum, and minimum temperatures and the dominant weather condition.
+4.**Alert System**: Notifies users when user-defined thresholds are breached. Alerts can be triggered for specific temperatures or weather conditions and are displayed on the console or sent via email.
+5.**Visualizations**: Generates charts to show daily summaries, trends, and alert triggers for better data interpretation.
 
 ## Getting Started
 -1.'Libraries Required'
