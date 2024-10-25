@@ -45,9 +45,9 @@ The following test cases will ensure the reliability of the system:
    ```bash
    git clone https://github.com/your_username/weather-monitoring-system.git
    cd weather-monitoring-system
-Key Features
-Data Collection: Retrieves data at configurable intervals (e.g., every 5 minutes) for major cities like Delhi, Mumbai, Chennai, Bangalore, Kolkata, and Hyderabad.
-Temperature Conversion: Converts temperature data from Kelvin to Celsius or Fahrenheit based on user preference.
+## Key Features
+1.**Data Collection**: Retrieves data at configurable intervals (e.g., every 5 minutes) for major cities like Delhi, Mumbai, Chennai, Bangalore, Kolkata, and Hyderabad.
+2.**Temperature Conversion**: Converts temperature data from Kelvin to Celsius or Fahrenheit based on user preference.
 Daily Weather Summaries: Aggregates daily data to calculate average, maximum, and minimum temperatures and the dominant weather condition.
 Alert System: Notifies users when user-defined thresholds are breached. Alerts can be triggered for specific temperatures or weather conditions and are displayed on the console or sent via email.
 Visualizations: Generates charts to show daily summaries, trends, and alert triggers for better data interpretation.
