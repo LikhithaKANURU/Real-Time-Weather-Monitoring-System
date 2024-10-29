@@ -1,8 +1,0 @@
-
-### Additional Notes:
-- **`requirements.txt`**: Include any dependencies, like `requests`, `sqlite3`, `matplotlib`, etc.
-- **`main.py`**: This will be your main script where you implement the data retrieval and processing logic.
-- **`utils.py`**: Consider creating utility functions for temperature conversion, database interactions, etc.
-- **Testing**: Set up basic unit tests for your functions to ensure everything works as intended.
-
-Feel free to adjust any section to better fit your project or personal style!
